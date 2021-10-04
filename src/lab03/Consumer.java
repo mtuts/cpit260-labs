@@ -12,6 +12,7 @@ public class Consumer implements Runnable {
   public Consumer(Buffer b) {
     buffer = b;
   }
+
   @Override
   public void run() {
     Date message;
